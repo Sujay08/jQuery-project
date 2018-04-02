@@ -1,0 +1,200 @@
+body{
+	background-color: #d8d8d8;
+}
+
+.banner {
+	width: 100%;
+	height: 400px;
+	background-image: url('../img/beach.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	padding-bottom: 500px;
+	margin-bottom: 0px;
+}
+
+.middle{
+	padding-top: 80px;
+	text-align: center;
+}
+
+.middle img{
+	height: 200px;
+}
+
+.title {
+	background-color: rgba(255,255,255,0.1);
+}
+
+.change{
+	-ms-transform: rotate(360deg); /* IE 9 */
+    -webkit-transform: rotate(360deg); /* Chrome, Safari, Opera */
+    transform: rotate(360deg);
+    transition-duration: 3s;
+}
+
+.destinations{
+	background-color: #060b19;
+	margin-bottom: 0px;
+	padding-bottom: 10px;
+	height: 140px;
+	color: #ff8800;
+	padding-top: 30px
+}
+
+
+/*******************************************************Hawaii******************************************************/
+.back-h {
+    background:url('../img/hawaii.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 650px;
+    box-shadow: inset 0 0 0 650px rgba(0,0,0,.5);
+    color: white;
+}
+
+.back-l {
+    background:url('../img/london.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 650px;
+    box-shadow: inset 0 0 0 650px rgba(0,0,0,.5);
+    color: white;
+}
+
+.back-c {
+    background:url('../img/cape.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 650px;
+    box-shadow: inset 0 0 0 650px rgba(0,0,0,.5);
+    color: white;
+}
+
+.back-p {
+    background:url('../img/paris.jpeg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 650px;
+    box-shadow: inset 0 0 0 650px rgba(0,0,0,.5);
+    color: white;
+}
+
+.text{
+	text-align: center;
+	padding-top: 180px;
+}
+
+.content-h{
+	display: none;	
+}
+
+.about{
+	width: 50%;
+	text-align: center;
+}
+
+.red{
+	color: red;
+	text-shadow: 6px 8px 4px #000;
+	transition: top 0.2s;
+}
+
+
+
+li{
+	list-style: none;
+	padding: 10px 0;
+}
+
+span{
+	text-decoration: underline;
+	padding-left: 20px;
+}
+
+
+/************************************************LONDON***************************************************/
+.content-l{
+	display: none;
+}
+
+.l-btn{
+	width: 100px;
+	-webkit-transition: width 2s;
+	transition: width 2s;
+}
+
+.l-btn:hover{
+	width:250px;
+}
+
+.l-list{
+	display: none;
+}
+
+
+/************************************************CAPE TOWN************************************************/
+
+.content-c{
+	display: none;	
+}
+
+.ct-btn{
+	margin-top: 250px;
+	padding-left: 26px;
+	padding-right: 26px;
+}
+/**********************************************PARIS***********************************************************/
+.back-p{
+	position: relative;
+}
+
+.content-p{
+	position: absolute;
+	top: 300px;
+}
+
+.about-p{
+	width: 80%;
+	text-align: center;
+	margin-left: 100px;
+}
+
+.paris{
+	position: absolute;
+	text-align: center;
+	right: 45%;
+}
+
+.go-up{
+	text-shadow: 6px 5px 4px #000;
+}
+
+/*********************************************footer*****************************************************************/
+.footer{
+	padding-top: 20px;
+	padding-bottom: 30px;
+	text-align: center;
+	background-color: #060b19;
+	color: #ff8800;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
